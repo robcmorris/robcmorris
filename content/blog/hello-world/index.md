@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: "2022-24-04"
+date: "2022-04-24"
 description: "Hello World"
 ---
 
