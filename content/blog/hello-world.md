@@ -6,5 +6,6 @@ description: "My first blog post."
 tags: ["off-topic"]
 ---
 
-##Hello World!
-Hello Everyone.
+Hello World!
+
+Welcome to my first blog post. This is a Hugo Static Site deployed directly into Azure as a Static Web App.
