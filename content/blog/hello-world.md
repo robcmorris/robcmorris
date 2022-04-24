@@ -4,6 +4,7 @@ title: "Hello, World!"
 date: 2022-04-23
 description: "My first blog post."
 tags: ["off-topic"]
+featured_image: /featured-placeholder.jpg
 ---
 
 Hello World!
