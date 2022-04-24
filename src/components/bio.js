@@ -40,15 +40,15 @@ const Bio = () => {
         width={50}
         height={50}
         quality={95}
-        alt="Profile picture"
+        alt={author.name}
       />
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Follow them on Twitter
-          </a>
+          He infrequently tweets on <a href={social.twitter}>Twitter</a>, 
+          occasionaly pushes code to <a href={social.github}>GitHub</a>. 
+          Feel free to connect on <a href={social.linkedIn}>LinkedIn</a>.
         </p>
       )}
     </div>

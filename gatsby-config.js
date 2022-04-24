@@ -3,12 +3,15 @@ module.exports = {
     title: `robcmorris.com`,
     author: {
       name: `Rob Morris`,
-      summary: `who lives and works in Jax, FL at a Managed IT Service Provider. I enjoy working with new technology and favor Open Source when available. Feel free to connect with me on [LinkedIn](https://linkedin.com/in/robcmo).`,
+      summary: `a CompTIA Secure Infrastructure Specialist who lives and works in Jax, FL at a Managed IT Service Provider.`,
     },
     description: `A website.`,
-    siteUrl: `https://nottl.io/`,
+    siteUrl: `https://robcmorris.com/`,
     social: {
-      twitter: `robcmo`,
+      twitter: `https://twitter.com/robcmo`,
+      github: 'https://github.com/robcmorris',
+      linkedin: 'https://linkedin/in/robcmo',
+      reddit: 'https://reddit.com/u/robcmo'
     },
   },
   plugins: [
