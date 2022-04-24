@@ -20,6 +20,8 @@ const Bio = () => {
           }
           social {
             twitter
+            github
+            linkedIn
           }
         }
       }
@@ -44,7 +46,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by <strong>{author.name}</strong> {author?.summary}
           {` `}
           He infrequently tweets on <a href={social.twitter}>Twitter</a>, 
           occasionaly pushes code to <a href={social.github}>GitHub</a>. 
