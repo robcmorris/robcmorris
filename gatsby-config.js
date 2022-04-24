@@ -10,7 +10,7 @@ module.exports = {
     social: {
       twitter: `https://twitter.com/robcmo`,
       github: 'https://github.com/robcmorris',
-      linkedin: 'https://linkedin/in/robcmo',
+      linkedIn: 'https://linkedin/in/robcmo',
       reddit: 'https://reddit.com/u/robcmo'
     },
   },
