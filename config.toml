@@ -10,7 +10,7 @@ title = "robcmorris.com"
   author = "Rob Morris"
   authorEmail = "me@robcmorris.com"
   authorImage = "/photo.png"
-  autoDarkMode = true
+  autoDarkMode = false
 
   copyright = "Copyright © 2022 - Rob Morris · All rights reserved"
   favicon = "favicon.ico"
@@ -18,7 +18,7 @@ title = "robcmorris.com"
 [params.homepage]
   title = "Hey 👋 I'm Rob Morris"
   tagline = "CompTIA Secure Infrastructure Specialist"
-  description = "I'm a part-time Stripper, and I do hair."
+  description = "Sometimes I fix things. I mostly blame end-users."
   contact = "https://twitter.com/robcmo"
 
 # [params.homepage.codepen]
