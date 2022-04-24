@@ -3,9 +3,9 @@ module.exports = {
     title: `robcmorris.com`,
     author: {
       name: `Rob Morris`,
-      summary: `a CompTIA Secure Infrastructure Specialist who lives and works in Jax, FL at a Managed IT Service Provider.`,
+      summary: `a System Analyst working out of Jax, FL at a Managed IT Service Provider.`,
     },
-    description: `A website.`,
+    description: `A person blog for Rob C Morris.`,
     siteUrl: `https://robcmorris.com/`,
     social: {
       twitter: `https://twitter.com/robcmo`,
