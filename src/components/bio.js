@@ -46,11 +46,11 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary}
+          Written by <strong>{author.name}</strong> {author.summary}
           {` `}
-          He infrequently tweets on <a href={social.twitter}>Twitter</a>, 
-          occasionaly pushes code to <a href={social.github}>GitHub</a>. 
-          Feel free to connect on <a href={social.linkedIn}>LinkedIn</a>.
+          Connnect with me on <a href={social.twitter}>Twitter</a>, 
+          <a href={social.github}>GitHub</a>, 
+          and <a href={social.linkedIn}>LinkedIn</a>.
         </p>
       )}
     </div>

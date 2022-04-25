@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Duval Til We Die.
+        © {new Date().getFullYear()}, robcmorris.com. Made in 📣 Duuuvalll!
       </footer>
     </div>
   )
