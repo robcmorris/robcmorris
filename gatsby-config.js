@@ -3,7 +3,7 @@ module.exports = {
     title: `robcmorris.com`,
     author: {
       name: `Rob Morris`,
-      summary: `a System Analyst working out of Jax, FL at a Managed IT Service Provider.`,
+      summary: `a System Analyst 👨‍💻 in Jax, FL. Open-source Enthusiast.`,
     },
     description: `A person blog for Rob C Morris.`,
     siteUrl: `https://robcmorris.com/`,
