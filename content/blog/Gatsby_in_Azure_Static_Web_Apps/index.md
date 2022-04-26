@@ -4,9 +4,9 @@ date: "2022-04-24"
 description: "My Hello World Project for this website. Gatsby blog in Azure Static Web Apps with CI/CD pipline based on GitHub deployments."
 ---
 
-I spent the time setting up a [Gatsby](https://www.gatsbyjs.org) blog, hosted in [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview), with a CI/CD workflow linked to run automatically when you update your [GitHub](https://github.com) repository, all for free so you don't have to.
+I spent the time setting up a [Gatsby](https://www.gatsbyjs.org) blog, hosted in [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview), with a CI/CD workflow linked to run automatically when you update your [GitHub](https://github.com) repository.
 
-The whole process its pretty easy.
+Here is how I did it.
 
 ## Prerequisites
 
@@ -109,9 +109,9 @@ Now I used my own info below, but this is what I ended up with:
 
 1. On the resource screen, click the _URL_ link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
 
-## Development
+## Development Time
 
-Now its time to develop and push changes to our repo.
+Now its time to push changes to our repo. You can refer to the [Gatsby Starter Blog GitHub](https://github.com/gatsbyjs/gatsby-starter-blog) and the [Gatsby Documentation](https://www.gatsbyjs.com/) for more info but this is where you'll need to go wild exploring the files and folders in the **gatsby-starter-blog** folder.
 
 1. Back in your terminal window we should still be in your **gatsby-starter-blog** folder.
 
@@ -120,7 +120,7 @@ Now its time to develop and push changes to our repo.
    ````bash
    npm install -g gatsby-cli
    ````
-1. Now run the development environment:
+1. Now run the development environment Gatsby provides:
    
    ````bash
    gatsby develop
@@ -147,12 +147,14 @@ Now its time to develop and push changes to our repo.
 
 ## Connect Custom Domain
 
-You you should now have a site up and running and ready to add your custom domain name. Head to Custom Domain Names.
+You you should now have a site up and running ready to add your custom domain name to it. Head to Custom Domain Names.
 
 You can find this in your Azure Portal Under: **All 
 Services > Web > Static Web Apps > gatsby-starter-blog > Custom Domain Names**
 
-From here you can select Custom Domains and hit **Add**.
+You can visit the **.azurestaticapps.net** page your app already has if you want. 
+
+From here you can hit **Add**.
 
 ![Custom Domains](./custom-domains.png)
 
@@ -169,8 +171,6 @@ When you link your GitHub in Azure and set your repository you'll notice that it
 
 ![Azure Workflow](./azure-workflow.png)
 
-I've tested out a few different Static Site Generators in Azure and had them set up in minimal time. The workflow is fun and make creating blogs easy.
-
-If you have any question, feel free to hit me up on [GitHub](https://github.com/robcmo/) or [Twitter](https://twitter.com/robcmo).
+I've tested out a few different Static Site Generators in Azure and had them set up in minimal time. If you have any question, feel free to hit me up on [GitHub](https://github.com/robcmo/) or [Twitter](https://twitter.com/robcmo).
 
 Hello, World! 👋
