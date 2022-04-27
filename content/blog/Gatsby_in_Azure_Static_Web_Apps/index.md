@@ -10,9 +10,8 @@ This blog is a 'Hello, World' project using [Gatsby](https://www.gatsbyjs.org), 
 
 - **Gatsby**: [Open Source](https://www.gatsbyjs.com/contributing). _Need I say more?_
 - **Azure Static Web Apps**: Has [Free Tier](https://azure.microsoft.com/en-us/pricing/details/app-service/static/) which allows using a custom domain, and provides free SSL certificates.
-- **GitHub Actions**: [Free Tier](https://github.com/pricing) includes 2,000 CI/CD minutes/month. For example this blog usually takes about 3-3.5 mins of "hosted runner minutes".
+- **GitHub Actions**: [Free Tier](https://github.com/pricing) includes 2,000 CI/CD minutes/month.
 - **Domain Name**: You could get one free...
-
 
 ## Prerequisites
 
@@ -20,7 +19,6 @@ This blog is a 'Hello, World' project using [Gatsby](https://www.gatsbyjs.org), 
 - A [GitHub account](https://github.com).
 - [Node.js](https://nodejs.org) installed.
 - Git
-- I'm using [ArchCraft Linux](https://archcraft.io/) but most  commands are OS independent.
 
 ## Setup Gatsby Blog Starter App
 
@@ -168,7 +166,6 @@ Now its time to customize the blog. You can refer to the [Gatsby Starter Blog Gi
 1. Check your GitHub for a running Action.
 
 ![GitHub Actions](./github-actions.png)
-
 
 ## Conclusion
 
