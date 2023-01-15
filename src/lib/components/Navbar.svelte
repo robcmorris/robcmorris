@@ -44,3 +44,4 @@
       <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
     </div>
   </nav>
+  
