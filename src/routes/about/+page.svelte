@@ -13,12 +13,9 @@
       </h1>
       <p class="mb-8 leading-relaxed">I developed a love for technology at a young age, starting with handheld electronics and video games. Over the years, I’ve gained a lot of experience with computer hardware, software, and programming. I eventually ended up with working in the IT industry at a local managed IT service provider.</p>
       <p class="mb-8 leading-relaxed">When I’m not working, I’m an advocate for open-source software and enjoy self-hosting useful projects in my home lab. I like experimenting with Docker, Linux, and learning to program in various languages. I still play the occasional video games from time to time, but most of my free time is spent learning about new technologies and working towards new certifications.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
-      </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="http://www.robcmorris.com/wp-content/uploads/2022/12/profile-pic.png">
+      <img class="object-cover object-center rounded w-60 h-60" alt="hero" src="http://www.robcmorris.com/wp-content/uploads/2022/12/profile-pic.png">
     </div>
   </div>
 </section>
@@ -86,7 +83,6 @@
         </div>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
   </div>
 </section>
   

@@ -14,10 +14,10 @@
 			<h2
 				class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-white sm:leading-none md:text-6xl"
 			>
-				<span class="text-indigo-600 font-bold">Hello, World!</span> I'm Rob!
+				<span class="text-purple-400 font-bold">Hello, World!</span> I'm Rob!
 			</h2>
 			<p class="mt-3 text-white sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5">
-				An IT Guy learning Software Development.
+				An IT Guy with a passsion for Software Development.
 			</p>
 			<div class="mt-5 sm:mt-8 sm:flex justify-center">
 				<div class="rounded-md shadow">
@@ -41,70 +41,52 @@
 	</main>
 </div>
 
-<!-- INTRO -->
-<section class="text-gray-700 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About
-        <br class="hidden lg:inline-block">Rob Morris
-      </h1>
-      <p class="mb-8 leading-relaxed">I’m a CompTIA Secure Infrastructure Specialist from Jacksonville, FL. I’m skilled in installing, configuring, and maintaining computer systems & networking equipment. Actively pursing Software Development.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
-      </div>
-    </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="http://www.robcmorris.com/wp-content/uploads/2022/12/profile-pic.png">
-    </div>
-  </div>
-</section>
-
 <!-- CERTS BREIF-->
 <section class="text-gray-700 body-font border-t border-gray-200 text-center">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">My Certifications</h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-base">Some Certifications I've earned.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Vendor Certifications</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-base">Companies I've earned Certifications with.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-300 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
+          <div class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/mainsitetemplateimages/comptia_logo_white.png?" alt="CompTIA Logo">
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">CompTIA</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <p class="leading-relaxed text-base">The Computing Technology Industry Association is an American non-profit trade association that issues professional certifications for the information technology industry.</p>
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-300 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-            </svg>
+          <div class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png?20210729021049" alt="Microsoft Logo">
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Microsoft</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <p class="leading-relaxed text-base">Microsoft Corporation is an American multinational technology corporation producing computer software, consumer electronics, personal computers, and related services.</p>
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-300 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
+          <div class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <img src="https://www.svgrepo.com/show/331300/aws.svg" alt="AWS Logo">
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AWS</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <p class="leading-relaxed text-base">Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.</p>
         </div>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
+    <div class="mt-5 sm:mt-8 sm:flex justify-center">
+      <div class="rounded-md shadow">
+        <a
+          href="/about"
+          class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-regular rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:px-10"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
