@@ -1,47 +1,47 @@
-<nav class="bg-gray-100">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex justify-between">
-  
-        <div class="flex space-x-4">
-          <!-- logo -->
-          <div>
-            <a href="/" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-              <svg class="h-6 w-6 mr-1 text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-              </svg>
-              <span class="font-bold">Rob/Morris</span>
-            </a>
-          </div>
-  
-          <!-- primary nav -->
-          <div class="hidden md:flex items-center space-x-1">
-            <a prefetch href="/about" class="py-5 px-3 text-gray-700 hover:text-gray-900">About</a>
-            <a prefetch href="/resources" class="py-5 px-3 text-gray-700 hover:text-gray-900">Resources</a>
-          </div>
-        </div>
-  
-        <!-- secondary nav -->
-        <div class="hidden md:flex items-center space-x-1">
-          <a prefetch href="/contact" class="py-5 px-3">Contact</a>
-          <a prefetch href="/" class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Signup</a>
-        </div>
-  
-        <!-- mobile button goes here -->
-        <div class="md:hidden flex items-center">
-          <button class="mobile-menu-button">
-            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+<script>
+  let showMenu = false;
+
+  function toggleNavbar() {
+    showMenu = !showMenu;
+  }
+</script>
+
+<div>
+  <div>
+    <nav
+      class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
+    >
+      <div class="flex items-center justify-between">
+        <a
+          class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
+          href="/"
+          >Rob Morris
+        </a>
+        <!-- Mobile menu button -->
+        <div on:click={toggleNavbar} on:keypress={toggleNavbar} class="flex md:hidden">
+          <button
+            type="button"
+            class="text-gray-800 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
           </button>
         </div>
-  
       </div>
-    </div>
-  
-    <!-- mobile menu -->
-    <div class="mobile-menu hidden md:hidden">
-      <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
-      <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
-    </div>
-  </nav>
-  
+
+      <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+      <div
+        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+          ? 'flex'
+          : 'hidden'}"
+      >
+        <a class="text-gray-800 hover:text-blue-400" href="/">Home</a>
+        <a class="text-gray-800 hover:text-blue-400" href="/about">About</a>
+        <a class="text-gray-800 hover:text-blue-400" href="/projects">Projects</a>
+        <a class="text-gray-800 hover:text-blue-400" href="/resources">Resources</a>
+        <a class="text-gray-800 hover:text-blue-400" href="/contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</div>

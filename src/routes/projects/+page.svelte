@@ -1,0 +1,9 @@
+<!-- src/routes/Projects/ -->
+
+<svelte:head>
+    <title>Projects</title> 
+</svelte:head>
+
+<div class="py-32 text-center">
+    <h2 class="font-extrabold text-4xl">Projects</h2>
+</div>
