@@ -1,23 +1,23 @@
 <!-- src/routes/Home/ -->
 
 <svelte:head>
-	<title>Home</title>
+	<title>Home of Rob Morris</title>
 </svelte:head>
 
-<div
-	class="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center"
+<!-- HERO -->
+<div class="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center"
 	style="background-image:url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
-	<div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75" />
+	<div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-90" />
 
 	<main class="px-4 sm:px-6 lg:px-8 z-10">
 		<div class="text-center">
 			<h2
 				class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-white sm:leading-none md:text-6xl"
 			>
-				<span class="text-purple-400 font-bold">Hello, World!</span> I'm Rob!
+				<span class="text-6xl font-extrabold box-decoration-slice bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 text-white px-2">Hello, World!</span>
 			</h2>
 			<p class="mt-3 text-white sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5">
-				An IT Guy with a passsion for Software Development.
+				I'm Rob! An IT Guy turned Software Engineer.
 			</p>
 			<div class="mt-5 sm:mt-8 sm:flex justify-center">
 				<div class="rounded-md shadow">
@@ -41,7 +41,7 @@
 	</main>
 </div>
 
-<!-- CERTS BREIF-->
+<!-- CERTS BRIEF-->
 <section class="text-gray-700 body-font border-t border-gray-200 text-center">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
@@ -97,7 +97,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
         <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
       </svg>
-      <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat praesentium quidem aperiam, fugit aut inventore illo eaque omnis veniam hic cumque tempora corporis quia ullam delectus, totam doloremque voluptatum.</p>
+      <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quam quas, dolorem deserunt modi inventore unde reprehenderit exercitationem eius vel suscipit maiores sunt quae eaque ullam. Cupiditate voluptate aspernatur voluptates!</p>
       <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
       <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">John Doe</h2>
       <p class="text-gray-500">IT Manager</p>

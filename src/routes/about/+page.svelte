@@ -1,31 +1,47 @@
 <!-- src/routes/About/ -->
 
 <svelte:head>
-    <title>About</title> 
+    <title>About Rob Morris</title>
 </svelte:head>
+
+<section class="bg-gray-900 text-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
+    <div class="mx-auto max-w-3xl text-center">
+      <h1
+        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl p-5"
+      >About.
+      </h1>
+    </div>
+  </div>
+</section>
+
+
 
 <!-- INTRO -->
 <section class="text-gray-700 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Me
-        <br class="hidden lg:inline-block">Rob Morris
-      </h1>
+      <h1 class="sm:text-4xl text-8xl font-extrabold py-12">Hello, I'm Rob!</h1>
       <p class="mb-8 leading-relaxed">I developed a love for technology at a young age, starting with handheld electronics and video games. Over the years, I’ve gained a lot of experience with computer hardware, software, and programming. I eventually ended up with working in the IT industry at a local managed IT service provider.</p>
       <p class="mb-8 leading-relaxed">When I’m not working, I’m an advocate for open-source software and enjoy self-hosting useful projects in my home lab. I like experimenting with Docker, Linux, and learning to program in various languages. I still play the occasional video games from time to time, but most of my free time is spent learning about new technologies and working towards new certifications.</p>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded w-60 h-60" alt="hero" src="http://www.robcmorris.com/wp-content/uploads/2022/12/profile-pic.png">
+      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/300x400/eeeeee/888888">
     </div>
   </div>
 </section>
   
 <!-- CERTS -->
-<section class="text-gray-700 body-font border-t border-gray-200">
+<section class="text-gray-700 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">My Certifications</h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-base">Some Certifications I've earned.</p>
+    <div class="max-w-screen-sm sm:text-center sm:mx-auto">
+      <h2 class="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+        My Certifications
+      </h2>
+      <hr class="w-full my-8 border-gray-300" />
+      <p class="text-base text-gray-700 md:text-lg sm:px-4 pb-12">
+        Some certs I've achived over the years.
+      </p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/3 md:w-1/2 p-4">

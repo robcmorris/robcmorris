@@ -1,11 +1,10 @@
 <script>
-    import Navbar from '$lib/components/NavBar.svelte';
-    import Footer from '$lib/components/Footer.svelte';
+	import Navbar from '$lib/components/NavBar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<Navbar/>
+<Navbar />
 
-<slot/>
+<slot />
 
-<Footer/>
-
+<Footer />

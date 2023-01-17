@@ -15,7 +15,7 @@
         <a
           class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
           href="/"
-          >Rob Morris
+          ><img class="object-cover object-center rounded w-12 h-12" alt="hero" src="http://www.robcmorris.com/wp-content/uploads/2022/12/profile-pic.png">
         </a>
         <!-- Mobile menu button -->
         <div on:click={toggleNavbar} on:keypress={toggleNavbar} class="flex md:hidden">
