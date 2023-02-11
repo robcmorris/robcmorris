@@ -5,9 +5,9 @@ const About: NextPage = () => {
   return (
     <>
       <SEO
-        title="About Me"
-        url="https://nottl.io/about"
-        description="About Me Page"
+        title="About Rob Morris"
+        url="https://robcmorris.com/about"
+        description="About Me Page for Rob Morris"
       />
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">

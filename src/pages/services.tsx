@@ -6,7 +6,7 @@ const Services: NextPage = () => {
     <>
       <SEO
         title="Services"
-        url="https://nottl.io/services"
+        url="https://robcmorris.com/services"
         description="Services Page"
       />
       <main className="container mx-auto flex min-h-screen">

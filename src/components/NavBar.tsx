@@ -31,7 +31,7 @@ function MobileNav({ open, setOpen }: MobileNav) {
         {" "}
         {/*logo container*/}
         <Link className="text-xl font-semibold" href="/">
-          Nottl.io
+          Rob Morris
         </Link>
       </div>
       <div className="ml-4 flex flex-col">
@@ -94,7 +94,7 @@ export default function Navbar() {
       <MobileNav open={open} setOpen={setOpen} />
       <div className="flex items-center border border-red-600">
         <Link className="text-2xl font-semibold" href="/">
-          Nottl.io
+          Rob Morris
         </Link>
       </div>
       <div className="flex flex-1 items-center justify-center border border-red-600">

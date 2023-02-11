@@ -5,8 +5,8 @@ const Contact: NextPage = () => {
   return (
     <>
       <SEO
-        title="Contact Me"
-        url="https://nottl.io/contact"
+        title="Contact Rob Morris"
+        url="https://robcmorris.com/contact"
         description="Contact Me Page"
       />
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">

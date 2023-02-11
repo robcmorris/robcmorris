@@ -6,8 +6,8 @@ const Projects: NextPage = () => {
   return (
     <>
       <SEO
-        title="Projects"
-        url="https://nottl.io/projects"
+        title="Rob Morris's Projects"
+        url="https://robcmorris.com/projects"
         description="Projects Page"
       />
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
